@@ -70,37 +70,34 @@
   gap: 7.5px;
 }
 
-.formatting-p{
-    font-size: 1.25rem;
-    padding: 1.5rem 0;
-
+.formatting-p {
+  font-size: 1.2rem;
+  padding: 1.5rem 0;
 }
-
-
 
 .button {
   padding: 0.25rem 0.5rem;
   border-radius: 0.75rem;
 }
 
-.large-btn{
-    padding: 0.5rem 0.75rem;
-    border-radius: 1.5rem;
+.large-btn {
+  padding: 0.5rem 0.75rem;
+  border-radius: 1.5rem;
 }
 
-.primary-btn{
-    background-color: white;
-    color: black;
+.primary-btn {
+  background-color: white;
+  color: black;
 }
 
-.light-btn{
-    background-color: white;
-    color: black;
+.light-btn {
+  background-color: white;
+  color: black;
 }
 
-.dark-btn{
-    background-color: black;
-    color: white;
+.dark-btn {
+  background-color: black;
+  color: white;
 }
 
 /*END UTILITY*/
@@ -117,13 +114,27 @@
   width: 55%;
   max-width: 1200px;
   margin: auto;
+}
 
-
+section {
+  margin: 4.75rem 4.75rem;
 }
 
 .image {
   width: 70%;
 }
+
+.text {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+img{
+    max-width: 100%;
+}
+
 
 .frineds-call {
   width: 100%;
@@ -140,9 +151,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-
-    
 
     img {
       width: 80px;
@@ -170,6 +178,32 @@ header {
     font-size: 3rem;
   }
 }
+
+.meet-place{
+  background-color: #F6F6F6;
+  margin: 0;
+
+  .container{
+    padding-top: 4.75rem ;
+  }
+}
+
+
+.wave{
+  color: #F6F6F6;
+}
+
+.wave-top{
+  margin-bottom: -0.5rem;
+
+}
+
+.wave-bot{
+  rotate: 180deg;
+  margin-top: -0.5rem;
+
+}
+
 /*END MAIN SECTION*/
 
 footer {
