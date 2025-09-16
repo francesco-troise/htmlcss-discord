@@ -1,0 +1,146 @@
+/*GLOBAL RULES*/
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*END GLOBAR RULES*/
+
+/* DEBUG MODE*/
+
+.debug {
+  * {
+    border: 1px dashed;
+  }
+
+  header {
+    height: 100px;
+    background-color: red;
+  }
+
+  main {
+    height: 2000px;
+    background-color: green;
+  }
+
+  footer {
+    height: 500px;
+    background-color: blue;
+  }
+
+  .container {
+    height: 100%;
+    background-color: rgba(255, 166, 0, 0.827);
+  }
+
+  .jumbotron {
+    height: 400px;
+    background-color: rgba(0, 0, 255, 0.634);
+  }
+
+  .small-container {
+    width: 65%;
+    height: 100%;
+    background-color: pink;
+  }
+
+  section {
+    height: 400px;
+    background-color: aquamarine;
+    padding: 2rem 0;
+  }
+}
+
+/*END DEBUG MODE*/
+
+/*UTILITY*/
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.list-unstyle {
+  list-style: none;
+  gap: 7.5px;
+}
+
+.white-button {
+  display: inline-block;
+  padding: 0 5px;
+  margin: 2px;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #000000;
+}
+
+/*END UTILITY*/
+
+/*COOMONS RULES*/
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.small-container {
+  width: 65%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.image {
+  width: 70%;
+}
+
+.frineds-call {
+  width: 100%;
+}
+
+/*END COMMONS RULES*/
+
+/*HEADER SECTION*/
+
+header {
+  padding: 0.75rem 0;
+  background-color: #3161e0;
+  nav {
+    align-items: center;
+
+    img {
+      width: 80px;
+      height: auto;
+    }
+  }
+}
+
+/*END HEADER SECTION*/
+
+/*MAIN SECTION*/
+.jumbotron {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: top;
+
+  color: white;
+
+  .small-container {
+    padding: 4rem 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+/*END MAIN SECTION*/
+
+footer {
+  background-color: #272c2f;
+}
