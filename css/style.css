@@ -70,13 +70,37 @@
   gap: 7.5px;
 }
 
-.white-button {
-  display: inline-block;
-  padding: 0 5px;
-  margin: 2px;
-  border-radius: 10px;
-  background: #ffffff;
-  color: #000000;
+.formatting-p{
+    font-size: 1.25rem;
+    padding: 1.5rem 0;
+
+}
+
+
+
+.button {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.75rem;
+}
+
+.large-btn{
+    padding: 0.5rem 0.75rem;
+    border-radius: 1.5rem;
+}
+
+.primary-btn{
+    background-color: white;
+    color: black;
+}
+
+.light-btn{
+    background-color: white;
+    color: black;
+}
+
+.dark-btn{
+    background-color: black;
+    color: white;
 }
 
 /*END UTILITY*/
@@ -90,9 +114,11 @@
 }
 
 .small-container {
-  width: 65%;
+  width: 55%;
   max-width: 1200px;
   margin: auto;
+
+
 }
 
 .image {
@@ -111,7 +137,12 @@ header {
   padding: 0.75rem 0;
   background-color: #3161e0;
   nav {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    
+
+    
 
     img {
       width: 80px;
